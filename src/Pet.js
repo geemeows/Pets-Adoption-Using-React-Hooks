@@ -1,5 +1,6 @@
 import React from "react";
-export default function Pet({ name, type, breed }) {
+
+const Pet = ({ name, type, breed }) => {
   return (
     <div>
       <h1>{name}</h1>
@@ -7,4 +8,6 @@ export default function Pet({ name, type, breed }) {
       <h2>{breed}</h2>
     </div>
   );
-}
+};
+
+export default Pet;
